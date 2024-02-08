@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 60px 0px;
+}
+
+h1{
+    color: white;
+    font-size: 110px;
+    margin: 5px;
+}
+
+input{
+    width: 600px;
+    height: 50px;
+    font-size: 1.4em;
+    padding: 0 30px;
+    line-height: 80px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: transparent;
+    transition: 0,1s ease;
+}
+
+button{
+    position: relative;
+    background: slategrey;
+    padding: 10px 22px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 26px;
+    font-weight: 400;
+    align-items: center;
+    width: 350px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+button:active{
+    transform: scale(0.96);
+}

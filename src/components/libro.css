@@ -1,0 +1,37 @@
+.lib-card{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background: #e1e1e1;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #e1e1e1;
+    padding: 15px 15px;
+}
+.lib-card img {
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.lib-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    margin: 5px;
+}
+.lib-info h4{
+    color: black;
+    font-size: 16px;
+    font-weight: 1500;
+    margin: 20px 0px 20px 0px;
+}
+
+.lib-info p{
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+}
